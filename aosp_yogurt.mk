@@ -8,14 +8,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Arrow stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
+
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 # Inherit from E7746 device
 $(call inherit-product, device/micromax/yogurt/device.mk)
 
 PRODUCT_DEVICE := yogurt
-PRODUCT_NAME := arrow_yogurt
+PRODUCT_NAME := aosp_yogurt
 PRODUCT_BRAND := Micromax
 PRODUCT_MODEL := IN_Note1
 PRODUCT_MANUFACTURER := micromax
