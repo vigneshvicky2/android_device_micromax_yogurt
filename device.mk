@@ -90,7 +90,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5.vendor
 
 PRODUCT_PACKAGES += \
-    libshim_camera_metadata
+    GCamGOPrebuilt-V4
 
 # RenderScript
 PRODUCT_PACKAGES += \
