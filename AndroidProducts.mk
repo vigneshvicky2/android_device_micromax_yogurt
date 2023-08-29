@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_yogurt.mk
+    $(LOCAL_DIR)/aosp_yogurt.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_yogurt-user \
-    arrow_yogurt-userdebug \
-    arrow_yogurt-eng
+    aosp_yogurt-user \
+    aosp_yogurt-userdebug \
+    aosp_yogurt-eng
