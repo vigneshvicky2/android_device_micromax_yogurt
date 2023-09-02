@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/drep_yogurt.mk
+    $(LOCAL_DIR)/Spark_yogurt.mk
 
 COMMON_LUNCH_CHOICES := \
-    drep_yogurt-user \
-    drep_yogurt-userdebug \
-    drep_yogurt-eng
+    Spark_yogurt-user \
+    Spark_yogurt-userdebug \
+    Spark_yogurt-eng
