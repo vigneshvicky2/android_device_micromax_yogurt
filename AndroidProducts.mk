@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022 The sparkOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/Spark_yogurt.mk
+    $(LOCAL_DIR)/spark_yogurt.mk
 
 COMMON_LUNCH_CHOICES := \
-    Spark_yogurt-user \
-    Spark_yogurt-userdebug \
-    Spark_yogurt-eng
+    spark_yogurt-user \
+    spark_yogurt-userdebug \
+    spark_yogurt-eng
