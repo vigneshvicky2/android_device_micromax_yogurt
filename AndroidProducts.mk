@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/drep_yogurt.mk
+    $(LOCAL_DIR)/havoc_yogurt.mk
 
 COMMON_LUNCH_CHOICES := \
-    drep_yogurt-user \
-    drep_yogurt-userdebug \
-    drep_yogurt-eng
+    havoc_yogurt-user \
+    havoc_yogurt-userdebug \
+    havoc_yogurt-eng
